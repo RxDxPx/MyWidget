@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyWidget</string>
+    <string name="sent1">sent1</string>
+    <string name="sent2">sent2</string>
+    <string name="deliver1">deliver1</string>
+    <string name="deliver2">deliver2</string>
+    <string name="btnRefrsh">SAIR</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>

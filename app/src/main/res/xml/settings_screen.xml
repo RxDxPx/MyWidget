@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="preference_telefones"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Telefones" />
+    <EditTextPreference
+        android:key="edit_text_preference_1"
+        android:maxLength="100"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:title="Mensagem"
+        android:visibility="visible" />
+    <ListPreference
+        android:entries="@android:array/phoneTypes"
+        android:entryValues="@android:array/phoneTypes"
+        android:key="list_preference_1"
+        android:title="Telefones Teste" />
+</PreferenceScreen>
